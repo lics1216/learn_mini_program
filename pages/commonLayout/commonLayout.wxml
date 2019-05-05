@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view>
+    <text class='check-detail'>查看明细</text>
+    <view class='money-detail'>
+        <image src="/images/withdraw_package.png" class='img-money' />
+        <text class='text1'>我的现金奖励（元）</text>
+        <text class='text1'>0.189</text>
+        <text class='text1'>差0.111元可提现</text>
+    </view>
+
+    <view class='btn-withdraw'>
+        <text class='text2'>提现</text>
+    </view>
+
+    <view class='withdraw-rules'>
+        <text class='text2 display-block'>1. 满0.3元即可提现 </text>
+        <text class='text2 display-block'>2. 满0.3元即可提现 </text>
+        <text class='text2 display-block'>3. 满0.3元即可提现满0.3元即可元 </text>
+        <text class='text2 display-block'>4. 满0.3元即可提现满0.3元即可提提现 </text>
+    </view>
+
+</view>

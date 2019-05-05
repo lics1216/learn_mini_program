@@ -1,0 +1,5 @@
+<!--components/modal/modal.wxml-->
+<view wx:if="{{isShow}}" class='modal' catchtap='close'>
+    <slot></slot>
+
+</view>

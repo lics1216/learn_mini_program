@@ -1,0 +1,49 @@
+/**index.wxss**/
+.check-detail {
+  position: fixed;
+  right: 5rpx;
+  top: 5rpx;
+}
+
+.money-detail {
+  width: 400rpx;
+  height: 400rpx;
+  margin-top: 100rpx;
+  margin-left: 100rpx;
+}
+
+.money-detail .img-money {
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.text1 {
+  color: #000;
+  display: block;
+}
+
+.btn-withdraw {
+  margin-top: 150rpx;
+  background-color: #FE890B;
+  border-radius: 45rpx;
+  width: 600rpx;
+  height: 88rpx;
+  text-align: center;
+  margin-left: 100rpx;
+}
+
+
+.withdraw-rules {
+  margin-top: 150rpx;
+  margin-left: 100rpx;
+}
+
+.text2 {
+  font-size: 16px;
+  color: #888888;
+  font-weight: bold;
+}
+
+.display-block{
+  display: block;
+}
