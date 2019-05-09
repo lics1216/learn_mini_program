@@ -19,8 +19,8 @@
 #### 三、处理用户 openid 
 [小程序前后端交互过程](https://www.jianshu.com/p/0b03cbb73e6f)
 1. wx.login()获得code，传给后台服务器
-2. 后台服务器请微信服务器请求，返回openId/sessionKey（用于获取用户已授权的其他数据，如运动步数）
-3. 接着，后台生成一个xxcookie返回，把xxcookie:openId 键值形式存储在session，前端缓存（setStorageSync），每次请求携带xxcookie，后台就可以判断是哪个用户
+2. 后台服务器请微信服务器请求，返回openId/sessionKey（用于获取用户已授权的其他数据，如运动步数），后台把openId/sessionKey存储在session，前端header里就会得到一个set-cookie 
+3. 小程序前端要缓存（setStorageSync），每次请求携带cookie，后台就可以判断是哪个用户，这个过程要自己实现（和浏览器不一样）
 4. 后台可以设置session 的时长，当用户放置打开的小程序几十分钟，session 是否失效
 
 #### 四、自定义组件
